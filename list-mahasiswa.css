@@ -1,0 +1,78 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+header h3 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 24px;
+}
+nav {
+    background-color: #00509e;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+nav a:hover {
+    color: #ffd700;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+table, th, td {
+    border: 1px solid #dddddd;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+th {
+    background-color: #003366;
+    color: white;
+    text-align: center ;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #ddd;
+}
+a {
+    color: #00509e;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+p {
+    text-align: center;
+    font-size: 18px;
+}
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+    header h3 {
+        font-size: 20px;
+    }
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
